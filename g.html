@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="g.css">
+  <link rel="shortcut icon" type="text/css" href="sfg.gif">
+  <title>SARAZ</title>
+</head>
+<body>
+
+
+
+<details>
+  <summary></summary>
+  <nav class="menu">
+    <a href="l.html">Faktlar</a>
+    <a href="https://sites.google.com/view/saraz1about/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Biz Haqimizda</a>
+    <a href="https://sites.google.com/view/saraz1qidiruv/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Qidiruv</a>
+    <a href="#link">Yangiliklar</a>
+    <a href="#">???</a>
+  </nav>
+</details>
+<hr>
+</head>
+<body>
+
+
+
+
+
+<h1>NORMAL INSONNING KUNLIK VAQT TAQSIMOTI</h1>
+
+<div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<div class="pes">
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['ish', 8],
+  ['ovqatlanish', 2],
+  ['bekorchilik', 4],
+  ['mashq', 2],
+  ['uyqu', 8]
+]);
+  
+  
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'BIR KUNLIK', 'width':1900, 'height':600};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+<div>
+</div>
+
+
+
+
+
+<div> 
+</div>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="weather-card one">
+        <div class="top">
+          <div class="wrapper">
+            <div class="mynav">
+              <a href="javascript:;"><span class="lnr lnr-chevron-left"></span></a>
+              <a href="javascript:;"><span class="lnr lnr-cog"></span></a>
+            </div>
+            <h1 class="heading">Clear night</h1>
+            <h3 class="location">Dhaka, Bangladesh</h3>
+            <p class="temp">
+              <span class="temp-value">20</span>
+              <span class="deg">0</span>
+              <a href="javascript:;"><span class="temp-type">C</span></a>
+            </p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="wrapper">
+            <ul class="forecast">
+              <a href="javascript:;"><span class="lnr lnr-chevron-up go-up"></span></a>
+              <li class="active">
+                <span class="date">Yesterday</span>
+                <span class="lnr lnr-sun condition">
+                  <span class="temp">23<span class="deg">0</span><span class="temp-type">C</span></span>
+                </span>
+              </li>
+              <li>
+                <span class="date">Tomorrow</span>
+                <span class="lnr lnr-cloud condition">
+                  <span class="temp">21<span class="deg">0</span><span class="temp-type">C</span></span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="weather-card rain">
+        <div class="top">
+          <div class="wrapper">
+            <div class="mynav">
+              <a href="javascript:;"><span class="lnr lnr-chevron-left"></span></a>
+              <a href="javascript:;"><span class="lnr lnr-cog"></span></a>
+            </div>
+            <h1 class="heading">Rainy day</h1>
+            <h3 class="location">Sylhet, Bangladesh</h3>
+            <p class="temp">
+              <span class="temp-value">16</span>
+              <span class="deg">0</span>
+              <a href="javascript:;"><span class="temp-type">C</span></a>
+            </p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="wrapper">
+            <ul class="forecast">
+              <a href="javascript:;"><span class="lnr lnr-chevron-up go-up"></span></a>
+              <li class="active">
+                <span class="date">Yesterday</span>
+                <span class="lnr lnr-sun condition">
+                  <span class="temp">22<span class="deg">0</span><span class="temp-type">C</span></span>
+                </span>
+              </li>
+              <li>
+                <span class="date">Tomorrow</span>
+                <span class="lnr lnr-cloud condition">
+                  <span class="temp">18<span class="deg">0</span><span class="temp-type">C</span></span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

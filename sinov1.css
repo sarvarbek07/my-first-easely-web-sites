@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+}
+/* navbar */
+.navbar nav ul li {
+  margin-left: 300px;
+  display: inline-flex;
+  background-color: black;
+  color: white;
+  padding: 20px;border-radius: 10px;
+  border: 1px solid white;
+}
+.navbar{
+  padding: flex;
+}
+.navbar nav ul{
+  border: white solid 1px;
+
+  margin: 0;
+  background-color: black;
+  padding: 25px;
+}
+.navbar nav ul li:hover:nth-child(1){
+  background-color: gold;
+  color: black;
+}
+.navbar nav ul li:hover:nth-child(2){
+  background-color: gold;
+  color: black;
+}
+.navbar nav ul li:hover:nth-child(3){
+  background-color: gold;
+  color: black;
+}
+.navbar nav ul li:hover:nth-child(4){
+  background-color: gold;
+  color: black;
+}
+/* link */
+.link h1{
+  
+  color: white;
+  background-color: black;
+  margin-left: -100px;
+}
+.link h1:hover{
+  transition: 1s;
+  margin-left: 0;
+}
+.link h1:hover:nth-child(1){
+  background-color: darkmagenta;
+  width: 150px;
+}
+.link h1:hover:nth-child(2){
+  background-color: rgb(28, 51, 179);
+  width: 150px;
+}
+.link h1:hover:nth-child(3){
+  background-color: rgb(198, 12, 204);
+  width: 150px;
+}
+.link h1:hover:nth-child(4){
+  background-color: rgb(223, 5, 5);
+  width: 150px;
+}
+.link h1:hover:nth-child(5){
+  background-color: rgb(0, 143, 187);
+  width: 150px;
+}
+/* card */
+.main .card{
+  border: solid 1px white;
+  width: 300px;
+}
+.main .card img{
+  border: white solid 1px;
+  width: 300px;
+  height: 200px;
+}
+.main .card h1{
+  color: white;
+  width: 300px;
+}
+.main .card p{
+  color:white;
+  width: 300px;
+}
+.main{
+  margin-left: 300px;
+  display: inline-flex;
+}
+.main .card{
+  margin: 60px;
+}
+
+hr{
+  border-color: white;
+}
+/* footar */
+.footar h1{
+  text-align: center;
+  color: white;
+}

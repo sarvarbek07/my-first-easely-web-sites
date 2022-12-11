@@ -1,0 +1,509 @@
+.tab table img{
+  padding: 20px;
+}
+.tab a{
+  color: gold;
+  text-decoration: none;
+}
+.tab a:hover{
+  color: greenyellow;
+}
+body, html {
+height: 100%;
+  margin: 0;
+  margin:0;
+  font-family: 'Nunito', sans-serif;
+  background-color:#f3f3f3;
+  background-image: url('https://i.imgur.com/Xxsi5dm.png');
+  background-attachment: fixed;
+}
+
+
+
+/** caratula en entrada **/
+.cover {
+  max-width:350px;
+  border: 4px solid #000;
+    box-shadow: 4px 4px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 4px rgba(0,0,0,1);
+    -o-box-shadow: 4px 4px rgba(0,0,0,1);
+    -ms-box-shadow: 4px 4px rgba(0,0,0,1);
+}
+/** subtitulo **/
+#subtitle {
+ text-align: center;
+ margin: 10px;
+ font-size: 25px;
+ font-family: 'M PLUS 1p', sans-serif;
+ color: #000;
+ letter-spacing: 5px;
+}
+hr {
+  border:none;
+  border-top:1px #ccc solid;
+  padding-bottom:15px;
+}
+/******* display:none *******/
+.AniMusic  {
+display:none;
+}
+
+/******* contenedor mayor *********/
+.container {
+  margin:10px 50px;
+  padding:0px;
+}
+/******** Contenido de entrada ********/
+.contenido {
+  width:100%;
+}
+/********** Contenedor tabla *********/
+.container2 {
+ width:100%;
+}
+.item {
+  padding:10px;
+  border-radius:3px;
+margin: 0 0 15px 15px;
+  background:#fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+}
+/*********** Separador de titulo y despedida *******************/
+.se1 {
+  opacity: ;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+/*************** Titulo ********************/
+.se1 span {
+  font-size:15px;
+  font-weight:500;
+}
+
+/************** Migas de Pan *************/
+.breadcrumbs a:hover {
+  color:#48e340;
+}
+.breadcrumbs {
+  padding:10px 0;
+  text-align:left;
+  font-size:.8em;
+}
+.breadcrumbs a {
+  padding-left:8px;
+  padding-right:8px;
+  color:#000;
+  text-decoration:none;
+}
+.breadcrumbs i {
+  color:#7c7c7c;
+  padding-left:8px;
+  padding-right:8px;
+}
+.breadcrumbs span {
+  padding-left:8px;
+  padding-right:8px;
+cursor: context-menu;
+}
+
+.breadcrumbs span {
+  color:#9a9a9a;
+  font-weight:700;
+}
+#home-bread {
+  padding-left:3px; 
+}
+
+/************** Widget Informacion *********/
+.info {
+  width:280px;
+  float:left;
+}
+/***** Music card ******/
+.music-card {
+  background-color:#fff;
+  width:100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+  font-family: 'M PLUS 1p', sans-serif;
+}
+/** Butones de lista y anime **/
+.mc-etq {
+  font-size:15px;
+  text-align:center;
+  padding:15px;
+  line-height:16px;
+}
+#drg {
+  float:right;
+  color:#000;
+}
+#bars {
+  float:left;
+  color:#000;
+}
+/** Caratula **/
+.caratula {
+  width:100%;
+}
+/** Informacion **/
+.mc-info {
+  text-align:center;
+  padding:10px;
+}
+#title {
+  color:#0f0f0f;
+  font-size:25px;
+  letter-spacing: 2px;
+  margin:0px;
+}
+#artist {
+  color:#999;
+  font-size:14px;
+  font-weight:500;
+  margin:5px;
+  margin-bottom:15px;
+}
+#more-info {
+  width:100%;
+  background-color:#353535;
+  color:#fff;
+  letter-spacing:2px;
+  padding:10px;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+/** Botones extra  **/
+.btn-extra, .btn-extra a { 
+  font-size:20px;
+  padding:5px;
+  text-align: center ;
+  letter-spacing:7px;
+  color: #bbb;
+}
+#Artist:hover {
+  color: #fff;
+}
+#yt-video:hover {
+  color:#e02f2f;
+}
+#s-song:hover {
+  color:#1ed760;
+}
+#sc-song:hover {
+  color:#ff7300;
+}
+#album:hover {
+  color:#0f74ce;
+}
+/** Tabla **/
+table {
+  width:100%;
+  font-size:15px;
+}
+.h3-title {
+  background: #000;
+  color:#fff;
+  margin:0;
+  padding:4px;
+}
+.h4-subtitle {
+  background: rgba(0, 0, 0,.6);
+  color:#fff;
+  margin:5px;
+  padding:2px;
+  border-radius:20px;
+  font-weight:580;
+}
+th {
+  background-color:rgba(0, 0, 0,.9);
+  color:#fff;
+  text-align:left;
+  width:35%;
+  border-radius:5px;
+  padding:5px;
+  font-weight:550;
+}
+tr {
+  margin:5px;
+}
+#down {
+  background-color:#000;
+  color:#fff;
+  font-weight:600;
+  letter-spacing:1px;
+  font-size:11px;
+  text-transform:uppercase;
+  padding:5px 10px;
+  border-radius:20px;
+  border:1px #000 solid;
+  cursor:pointer;
+  outline:none;
+}
+#down > i {
+  color:#48e340;
+}
+#down:hover {
+  background-color:#0f0f0f;
+  color:#48e340;
+  border:1px #48e340 solid;
+}
+
+
+/*************** Navegador final **********/
+.backward {
+  float:left;
+}
+.navegation {
+text-align:right;
+ font-size:25px;
+}
+.navegation a {
+ 
+   color:#000;
+}
+.forward {
+  float:right;
+}
+
+/************ Tooltip *************/
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: context-menu;
+}
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/************* Responsive ****************/
+/** 650px **/
+@media only screen and (max-width:650px) {
+  /** contenedores **/
+  .container {
+   padding:0;
+   margin:0;
+}  
+}
+/** 850px **/
+@media only screen and (max-width:850px) {
+  table td {
+    display:inline-block;
+  }
+  .item {
+margin: 0;
+  background:#fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+}
+    /** Music card **/
+.info {
+  width:100% !important;
+  margin-bottom:10px;
+}
+  .caratula {
+    display:none;
+  }
+}
+
+
+/************ Tabs de entrada - opciones ************/
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+.tabset .tab-panel {
+  display: none;
+}
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+.tabset > label {
+  background: #fff;
+  color:#000;
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px 5px;
+  border: 2px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #00e423;
+  background:#fff;
+}
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #000;
+}
+.tabset > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+.tab-panel {
+  padding: 5px;
+  border-top: 1px solid #ccc;
+}
+
+/********** Tabs  en widget ************/
+#tabs{
+  width:100%;
+  margin:0 auto;
+  margin-bottom:2%;
+  margin-top:2%;
+  border-radius:3px;
+  text-align:center;
+}
+input[type="radio"]{
+  display:none;
+}
+label{
+  background:#575757;
+  display:inline-block;
+  margin-right:0px;
+  padding:10px 15px;
+  font-family:Arial;
+  font-size:15px;
+  color:#e1e1e1;
+  border-radius:3px 3px 0 0;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+label:hover{
+  background:#7c7c7c;
+}
+.tab{
+  min-height:auto;
+  background:#fff;
+  display:none;
+  padding:0px;
+  color:#444;
+  border-top: 5px #6ced5b solid;
+}
+#toggle-tab1:checked ~ label[for="toggle-tab1"],#toggle-tab2:checked ~ label[for="toggle-tab2"],#toggle-tab3:checked ~ label[for="toggle-tab3"],#toggle-tab4:checked ~ label[for="toggle-tab4"], #toggle-tab5:checked ~ label[for="toggle-tab5"]{
+  background:#6ced5b;
+  margin-bottom:0;
+  border-bottom-left-radius:0;
+  border-bottom-right-radius:0;
+  color:#36913e;
+  border-bottom:none;
+  cursor:default;
+}
+#toggle-tab1:checked ~ #tab1,#toggle-tab2:checked ~ #tab2,#toggle-tab3:checked ~ #tab3,#toggle-tab4:checked ~ #tab4, #toggle-tab5:checked ~ #tab5{
+  display:block;
+}
+/********************* OPCIONES DE LETRA ***************************/
+.tab3 {
+  color:#fff;
+  overflow: hidden;
+  border: 3px solid #050505;
+  background-color: #050505;
+}
+
+/* Style the buttons inside the tab */
+.tab3 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+    color:#fff;
+}
+
+/* Change background color of buttons on hover */
+.tab3 button:hover {
+  background-color: #fff;
+    color:#000;
+}
+
+/* Create an active/current tablink class */
+.tab3 button.active {
+  background-color: #fff;
+    color:#000;
+}
+
+/* Style the tab content */
+.tabcontent3 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #050505;
+  border-top: none;
+}
+.tabcontent3 > h3 {
+    font-size: 28px;
+    color:#050505;
+}
+
+
+/********************** Imagen de anime ******************************/
+#naruto {
+  background-image: url("https://img.fireden.net/a/image/1524/74/1524745303510.jpg");
+  color:#fff;
+  text-align:left !important:
+}
